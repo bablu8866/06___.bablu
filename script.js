@@ -3,7 +3,7 @@ function validateForm() {
     var email = document.getElementById("email").value;
     var msg = document.getElementById("message").value;
     var result = document.getElementById("result");
-
+    
     if (name === "" || email === "" || msg === "") {
         result.innerHTML = "❌ सभी fields भरें / Fill all fields";
         result.style.color = "red";
@@ -11,7 +11,7 @@ function validateForm() {
         result.innerHTML = "❌ Valid email दर्ज करें";
         result.style.color = "red";
     } else {
-        result.innerHTML = "✔ फ़ॉर्म सफलतापूर्वक जमा हो गया। धन्यवाद।";
+        result.innerHTML = "✅ Form submitted successfully!";
         result.style.color = "green";
     }
 }
