@@ -81,3 +81,16 @@ let letter = "";
   }
 
 })();
+// Dark / Light Mode
+
+const themeBtn = document.getElementById("theme-btn");
+
+themeBtn.addEventListener("click", () => {
+    document.body.classList.toggle("light");
+
+    if(document.body.classList.contains("light")){
+        themeBtn.innerHTML = "☀️ Light";
+    } else {
+        themeBtn.innerHTML = "🌙 Dark";
+    }
+});
