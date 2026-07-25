@@ -218,3 +218,17 @@ footer{
     font-size:32px;
 }
 }
+.hero-text h3{
+color:#00d9ff;
+border-right:3px solid #00d9ff;
+display:inline-block;
+white-space:nowrap;
+overflow:hidden;
+animation:blink .7s infinite;
+}
+
+@keyframes blink{
+50%{
+border-color:transparent;
+}
+}
