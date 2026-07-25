@@ -248,3 +248,17 @@ background:#ffffff;
 background:#ffffff;
 color:#111;
 }
+#theme-btn{
+    background:#00c3ff;
+    color:white;
+    border:none;
+    padding:8px 15px;
+    border-radius:20px;
+    cursor:pointer;
+    margin-left:15px;
+    font-size:14px;
+}
+
+#theme-btn:hover{
+    background:#0099cc;
+}
