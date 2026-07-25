@@ -94,4 +94,3 @@ themeBtn.addEventListener("click", () => {
         themeBtn.innerHTML = "🌙 Dark";
     }
 });
-// Dark Mode Toggle
