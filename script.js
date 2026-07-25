@@ -95,4 +95,3 @@ themeBtn.addEventListener("click", () => {
     }
 });
 // Dark Mode Toggle
-const themeBtn = document.getElementById("theme-btn");
