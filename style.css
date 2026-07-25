@@ -163,3 +163,68 @@ box-shadow:0 10px 30px rgba(0,0,0,.3);
 .project-card h3{
     color:#00d9ff;
 }
+.skills{
+padding:80px 8%;
+text-align:center;
+}
+
+.skills h2{
+font-size:40px;
+color:#00e5ff;
+margin-bottom:30px;
+}
+
+.skill{
+margin:20px auto;
+max-width:600px;
+text-align:left;
+}
+
+.skill h3{
+margin-bottom:8px;
+}
+
+.bar{
+width:100%;
+height:12px;
+background:#2c3e50;
+border-radius:20px;
+overflow:hidden;
+}
+
+.bar div{
+height:100%;
+background:#00e5ff;
+border-radius:20px;
+}
+
+.html{width:95%;}
+.css{width:90%;}
+.js{width:85%;}
+.git{width:80%;}.about{
+padding:80px 8%;
+text-align:center;
+}
+
+/* YAHAN SE NAYA CSS PASTE KARO */
+
+.about h2{
+font-size:40px;
+color:#00e5ff;
+margin-bottom:30px;
+}
+
+.about-box{
+max-width:700px;
+margin:auto;
+background:#1e293b;
+padding:30px;
+border-radius:20px;
+}
+
+.projects{
+padding:80px 8%;
+text-align:center;
+}
+
+/* ...baaki CSS bhi yahin neeche... */
