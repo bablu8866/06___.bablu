@@ -303,6 +303,48 @@ color:#ddd;
 
 html{
 scroll-behavior:smooth;
+}.contact{
+padding:80px 8%;
+text-align:center;
+}
+
+.contact h2{
+font-size:42px;
+color:#00e5ff;
+margin-bottom:30px;
+}
+
+.contact-box{
+max-width:600px;
+margin:auto;
+background:rgba(255,255,255,.08);
+padding:30px;
+border-radius:20px;
+backdrop-filter:blur(12px);
+box-shadow:0 0 20px rgba(0,229,255,.3);
+}
+
+.contact-box p{
+margin:18px 0;
+font-size:18px;
+}
+
+.contact-box a{
+color:#00e5ff;
+text-decoration:none;
+}
+
+.contact-box a:hover{
+text-decoration:underline;
+}
+
+footer{
+margin-top:60px;
+padding:20px;
+text-align:center;
+background:#111827;
+color:#aaa;
+font-size:15px;
 }
 
 /* ...baaki CSS bhi yahin neeche... */
