@@ -288,3 +288,44 @@ font-size:30px;
 }
 
 }
+.education{
+padding:80px 8%;
+text-align:center;
+}
+
+.education h2{
+font-size:40px;
+color:#00d9ff;
+margin-bottom:40px;
+}
+
+.education-box{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.edu-card{
+background:#1e293b;
+padding:25px;
+width:250px;
+border-radius:15px;
+box-shadow:0 0 15px rgba(0,217,255,.25);
+transition:.3s;
+}
+
+.edu-card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 25px rgba(0,217,255,.6);
+}
+
+.edu-card h3{
+color:#00d9ff;
+margin-bottom:10px;
+}
+
+.light .edu-card{
+background:#ffffff;
+color:#111;
+}
