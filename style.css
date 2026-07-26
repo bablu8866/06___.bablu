@@ -399,3 +399,49 @@ margin-top:15px;
 display:flex;
 }
 }
+/* Mobile Responsive */
+@media (max-width: 768px) {
+
+  .navbar{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px 20px;
+  }
+
+  .menu-toggle{
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .menu{
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .menu.active{
+    display: flex;
+  }
+
+  .hero{
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .hero-img img{
+    width: 250px;
+    height: 250px;
+  }
+
+  .hero-text h1{
+    font-size: 42px;
+  }
+
+  .hero-text h3{
+    font-size: 26px;
+  }
+}
