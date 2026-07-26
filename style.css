@@ -329,3 +329,7 @@ margin-bottom:10px;
 background:#ffffff;
 color:#111;
 }
+.project-card .btn{
+margin:8px;
+display:inline-block;
+}
