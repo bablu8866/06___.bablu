@@ -471,8 +471,8 @@ display:flex;
 /* Calculator */
 
 .calculator{
-    width:380px;
-    max-width:95%;
+    width:100%;
+    max-width:400px;
     margin:60px auto;
     background:#1e293b;
     padding:25px;
