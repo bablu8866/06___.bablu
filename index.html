@@ -154,23 +154,21 @@ Currently, I am pursuing my Bachelor's degree and continuously improving my fron
 
 <h2>Contact Me</h2>
 
-<div class="contact-box">
+<h2>Contact Me</h2>
 
-<p><i class="fas fa-envelope"></i> <strong>Email:</strong> bablukumar8866bk@gmail.com</p>
+<form id="contact-form" class="contact-box">
+    <input type="text" id="name" name="name" placeholder="Your Name" required>
 
-<p><i class="fas fa-phone"></i> <strong>Phone:</strong> 7352800938</p>
+    <input type="email" id="email" name="email" placeholder="Your Email" required>
 
-<p><i class="fas fa-map-marker-alt"></i> <strong>Location:</strong> Patna, Bihar, India</p>
+    <input type="text" id="title" name="title" placeholder="Subject" required>
 
-<p>
-<i class="fab fa-github"></i>
-<strong>GitHub:</strong>
-<a href="https://github.com/bablu8866" target="_blank">
-github.com/bablu8866
-</a>
-</p>
+    <textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
 
-</div>
+    <button type="submit" class="btn">Send Message</button>
+
+    <p id="result"></p>
+</form>
 
 </section>
 
