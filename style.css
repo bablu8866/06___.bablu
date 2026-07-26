@@ -333,3 +333,44 @@ color:#111;
 margin:8px;
 display:inline-block;
 }
+.certificates{
+padding:80px 8%;
+text-align:center;
+}
+
+.certificates h2{
+font-size:40px;
+color:#00d9ff;
+margin-bottom:40px;
+}
+
+.certificate-box{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:20px;
+}
+
+.certificate-card{
+background:#1e293b;
+padding:25px;
+width:250px;
+border-radius:15px;
+box-shadow:0 0 15px rgba(0,217,255,.25);
+transition:.3s;
+}
+
+.certificate-card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 25px rgba(0,217,255,.6);
+}
+
+.certificate-card h3{
+color:#00d9ff;
+margin-bottom:10px;
+}
+
+.light .certificate-card{
+background:#fff;
+color:#111;
+}
