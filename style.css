@@ -321,3 +321,17 @@ color:#111;
 }
 
 }
+.contact-box i{
+    color:#00d9ff;
+    margin-right:10px;
+    font-size:20px;
+}
+
+.contact-box a{
+    color:#00d9ff;
+    text-decoration:none;
+}
+
+.contact-box a:hover{
+    text-decoration:underline;
+}
