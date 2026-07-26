@@ -559,3 +559,29 @@ display:flex;
     margin-top:10px;
     font-weight:bold;
 }
+.gallery{
+    padding:80px 10%;
+    text-align:center;
+}
+
+.gallery h2{
+    color:#00d9ff;
+    margin-bottom:30px;
+}
+
+.gallery-box{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.gallery-box img{
+    width:100%;
+    border-radius:12px;
+    transition:.3s;
+    cursor:pointer;
+}
+
+.gallery-box img:hover{
+    transform:scale(1.05);
+}
