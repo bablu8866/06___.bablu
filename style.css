@@ -424,3 +424,42 @@ display:flex;
     font-size: 26px;
   }
 }
+/* Professional Project Cards */
+
+.projects-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:30px;
+    margin-top:40px;
+}
+
+.project-card{
+    width:350px;
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.3);
+    transition:0.3s;
+    text-align:left;
+}
+
+.project-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 10px 30px rgba(0,255,255,0.3);
+}
+
+.project-card h3{
+    color:#38bdf8;
+    margin-bottom:15px;
+}
+
+.project-card p{
+    margin-bottom:15px;
+    line-height:1.7;
+}
+
+.project-card .btn{
+    display:inline-block;
+    margin:8px 8px 0 0;
+}
