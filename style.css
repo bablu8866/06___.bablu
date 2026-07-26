@@ -806,3 +806,26 @@ display:flex;
     z-index: 10;
     box-shadow: 0 3px 10px rgba(0,217,255,.4);
 }
+.gallery-item{
+    position:relative;
+    overflow:hidden;
+    border-radius:18px;
+}
+
+.gallery-item span{
+    position:absolute;
+    top:10px;
+    left:10px;
+    width:30px;
+    height:30px;
+    background:#00d9ff;
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:6px;
+    font-weight:bold;
+    font-size:15px;
+    z-index:10;
+    box-shadow:0 3px 10px rgba(0,217,255,.5);
+}
