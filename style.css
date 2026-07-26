@@ -738,3 +738,20 @@ display:flex;
     color:#00d9ff;
     transform:rotate(90deg);
 }
+.gallery-box{
+    display:grid !important;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr)) !important;
+    gap:25px !important;
+}
+
+.gallery-box img{
+    width:100% !important;
+    height:280px !important;
+    object-fit:cover !important;
+    border-radius:18px !important;
+    transition:.4s;
+}
+
+.gallery-box img:hover{
+    transform:scale(1.05);
+}
