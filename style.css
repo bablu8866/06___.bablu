@@ -365,7 +365,20 @@ display:flex;
 }
 /* Mobile Responsive */
 @media (max-width: 768px) {
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
 
+#theme-btn{
+    margin-left:auto;
+    margin-right:15px;
+}
+
+.menu-toggle{
+    order:3;
+}
   .navbar{
     flex-wrap: wrap;
     justify-content: space-between;
