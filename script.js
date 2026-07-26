@@ -1,20 +1,22 @@
-function validateForm() {
-    var name = document.getElementById("name").value;
-    var email = document.getElementById("email").value;
-    var msg = document.getElementById("message").value;
-    var result = document.getElementById("result");
-    
-    if (name === "" || email === "" || msg === "") {
-        result.innerHTML = "❌ सभी fields भरें / Fill all fields";
-        result.style.color = "red";
-    } else if (!email.includes("@")) {
-        result.innerHTML = "❌ Valid email दर्ज करें";
-        result.style.color = "red";
-    } else {
-        result.innerHTML = "✅ Form submitted successfully!";
-        result.style.color = "green";
-    }
-}
+emailjs.init("WHdzkp11IHgLIfcue");
+
+document.getElementById("contact-form").addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    emailjs.sendForm(
+        "service_tmksidb",
+        "template_1bhemff",
+        this
+    ).then(function () {
+        document.getElementById("result").innerHTML = "✅ Message sent successfully!";
+    }, function (error) {
+        document.getElementById("result").innerHTML = "❌ Failed to send message!";
+        console.log(error);
+    });
+
+    this.reset();
+});
+
 // ===== Portfolio Features =====
 
 // Smooth Scrolling
