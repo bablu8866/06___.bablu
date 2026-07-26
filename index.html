@@ -155,17 +155,21 @@ Currently, I am pursuing my Bachelor's degree and continuously improving my fron
 <h2>Contact Me</h2>
 
 <form id="contact-form" class="contact-box">
-    <input type="text" id="name" name="name" placeholder="Your Name" required>
 
-    <input type="email" id="email" name="email" placeholder="Your Email" required>
+<input type="text" id="name" name="name" placeholder="Your Name" required>
 
-    <input type="text" id="title" name="title" placeholder="Subject" required>
+<input type="email" id="email" name="email" placeholder="Your Email" required>
 
-    <textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
+<input type="text" id="subject" name="subject" placeholder="Subject" required>
 
-    <button type="submit" class="btn">Send Message</button>
+<textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
 
-    <p id="result"></p>
+<input type="hidden" name="contact_number">
+
+<button type="submit" class="btn">Send Message</button>
+
+<p id="result"></p>
+
 </form>
 
 </section>
