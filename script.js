@@ -30,7 +30,7 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
 
         }
 
-        navLinks.classList.remove("show");
+        navbar.classList.remove("show");
 
     });
 
@@ -254,11 +254,4 @@ setTimeout(type,speed);
 }
 
 type();
-const menuBtn = document.querySelector(".menu-btn");
-const nav = document.querySelector(".navbar");
 
-if(menuBtn){
-    menuBtn.addEventListener("click", () => {
-        nav.classList.toggle("show");
-    });
-}
