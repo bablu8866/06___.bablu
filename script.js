@@ -202,3 +202,55 @@ const copyright = document.querySelector(".copyright");
 if (copyright) {
     copyright.innerHTML = `© ${year} BABLU KUMAR | All Rights Reserved`;
 }
+// ===== Typing Animation =====
+
+const words = [
+"Frontend Developer",
+"JavaScript Developer",
+"Full Stack Developer",
+"Web Designer"
+];
+
+let wordIndex = 0;
+let charIndex = 0;
+let isDeleting = false;
+
+const typing = document.querySelector(".typing");
+
+function type(){
+
+if(!typing) return;
+
+const currentWord = words[wordIndex];
+
+if(isDeleting){
+
+typing.textContent = currentWord.substring(0,charIndex--);
+
+}else{
+
+typing.textContent = currentWord.substring(0,charIndex++);
+
+}
+
+let speed = isDeleting ? 60 : 120;
+
+if(!isDeleting && charIndex === currentWord.length + 1){
+
+isDeleting = true;
+speed = 1500;
+
+}
+
+if(isDeleting && charIndex === 0){
+
+isDeleting = false;
+wordIndex = (wordIndex + 1) % words.length;
+
+}
+
+setTimeout(type,speed);
+
+}
+
+type();
