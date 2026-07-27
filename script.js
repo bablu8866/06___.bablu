@@ -53,3 +53,152 @@ header.style.boxShadow="none";
 }
 
 });
+/* =====================================
+   PART 3B
+===================================== */
+
+// Typing Effect
+
+const text = [
+    "Full Stack Developer",
+    "Frontend Developer",
+    "JavaScript Developer",
+    "React Learner"
+];
+
+let count = 0;
+let index = 0;
+let currentText = "";
+let letter = "";
+
+(function type() {
+
+    if (count === text.length) {
+        count = 0;
+    }
+
+    currentText = text[count];
+    letter = currentText.slice(0, ++index);
+
+    const h2 = document.querySelector(".left h2");
+
+    if (h2) {
+        h2.textContent = letter;
+    }
+
+    if (letter.length === currentText.length) {
+
+        setTimeout(() => {
+
+            index = 0;
+            count++;
+
+            type();
+
+        }, 1500);
+
+    } else {
+
+        setTimeout(type, 100);
+
+    }
+
+})();
+
+
+// Fade Animation
+
+const observer = new IntersectionObserver(entries => {
+
+    entries.forEach(entry => {
+
+        if (entry.isIntersecting) {
+
+            entry.target.style.opacity = "1";
+            entry.target.style.transform = "translateY(0px)";
+
+        }
+
+    });
+
+});
+
+document.querySelectorAll("section").forEach(section => {
+
+    section.style.opacity = "0";
+    section.style.transform = "translateY(80px)";
+    section.style.transition = "1s";
+
+    observer.observe(section);
+
+});
+
+
+// Image Hover Cursor
+
+document.querySelectorAll(".gallery-grid img").forEach(img => {
+
+    img.addEventListener("mouseenter", () => {
+
+        img.style.transform = "scale(1.05)";
+
+    });
+
+    img.addEventListener("mouseleave", () => {
+
+        img.style.transform = "scale(1)";
+
+    });
+
+});
+/* =====================================
+   PART 3C - FINAL
+===================================== */
+
+// Gallery Lightbox
+
+const galleryImages = document.querySelectorAll(".gallery-grid img");
+
+galleryImages.forEach(img => {
+
+    img.addEventListener("click", () => {
+
+        const overlay = document.createElement("div");
+        overlay.className = "lightbox";
+
+        overlay.innerHTML = `
+            <span class="close">&times;</span>
+            <img src="${img.src}">
+        `;
+
+        document.body.appendChild(overlay);
+
+        overlay.querySelector(".close").onclick = () => {
+            overlay.remove();
+        };
+
+        overlay.onclick = (e) => {
+            if (e.target === overlay) {
+                overlay.remove();
+            }
+        };
+
+    });
+
+});
+
+// Page Loader
+
+window.addEventListener("load", () => {
+    document.body.style.opacity = "1";
+});
+
+// Current Year
+
+const year = new Date().getFullYear();
+
+const copyright = document.querySelector(".copyright");
+
+if (copyright) {
+    copyright.innerHTML = `© ${year} BABLU KUMAR | All Rights Reserved`;
+}
