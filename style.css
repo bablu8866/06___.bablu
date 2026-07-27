@@ -969,14 +969,15 @@ justify-content:center;
 }
 
 .hero-image img{
-width:340px;
-height:340px;
-border-radius:50%;
-object-fit:cover;
-border:6px solid #FFD700;
-box-shadow:0 0 40px #FFD700;
-animation:glow 3s infinite alternate;
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid #FFD700;
+    box-shadow:0 0 20px #FFD700;
+    animation:glow 3s infinite alternate;
 }
+
 
 @keyframes glow{
 
