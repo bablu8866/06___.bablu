@@ -1108,25 +1108,37 @@ width:0;
     cursor:pointer;
 }
 
-
 @media (max-width:768px){
-
-.navbar{
-    display:none;
-    position:absolute;
-    top:70px;
-    left:0;
-    width:100%;
-    background:#111;
-    flex-direction:column;
-    padding:20px;
-}
-
-.navbar.show{
-    display:flex;
-}
 
 .menu-btn{
     display:block;
+}
+
+.navbar{
+    position:fixed;
+    top:70px;
+    right:-100%;
+    width:250px;
+    height:100vh;
+    background:#111;
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+    padding:40px 20px;
+    transition:.4s;
+}
+
+.navbar.show{
+    right:0;
+}
+
+.hero-container{
+    flex-direction:column;
+    text-align:center;
+}
+
+.hero-image img{
+    width:220px;
+    height:220px;
 }
 }
