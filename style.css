@@ -1064,3 +1064,40 @@ transform:translateY(-40px) translateX(20px);
 }
 
 }
+.skill{
+margin:20px 0;
+}
+
+.skill p{
+display:flex;
+justify-content:space-between;
+margin-bottom:8px;
+font-weight:600;
+}
+
+.progress{
+width:100%;
+height:10px;
+background:#222;
+border-radius:20px;
+overflow:hidden;
+}
+
+.progress-bar{
+height:100%;
+background:#FFD700;
+border-radius:20px;
+animation:fillBar 2s ease forwards;
+width:0;
+}
+
+.html{width:100%;}
+.css{width:90%;}
+.js{width:80%;}
+.react{width:60%;}
+
+@keyframes fillBar{
+from{
+width:0;
+}
+}
