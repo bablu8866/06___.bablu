@@ -1,149 +1,55 @@
-emailjs.init("WHdzkp11IHgLIfcue");
+/* =====================================
+   LUXURY PORTFOLIO
+   PART 3A
+===================================== */
 
-document.getElementById("contact-form").addEventListener("submit", function (e) {
-    e.preventDefault();
+// Mobile Menu
 
-    emailjs.sendForm(
-        "service_tmksidb",
-        "template_1bhemff",
-        this
-    ).then(function () {
-        document.getElementById("result").innerHTML = "✅ Message sent successfully!";
-    }, function (error) {
-        document.getElementById("result").innerHTML = "❌ Failed to send message!";
-        console.log(error);
+const menuBtn = document.querySelector(".menu-btn");
+const navLinks = document.querySelector(".nav-links");
+
+menuBtn.addEventListener("click", () => {
+    navLinks.classList.toggle("show");
+});
+
+// Smooth Scroll
+
+document.querySelectorAll('a[href^="#"]').forEach(link => {
+
+    link.addEventListener("click", function(e) {
+
+        e.preventDefault();
+
+        const target = document.querySelector(this.getAttribute("href"));
+
+        if(target){
+
+            target.scrollIntoView({
+                behavior:"smooth"
+            });
+
+        }
+
+        navLinks.classList.remove("show");
+
     });
 
-    this.reset();
 });
 
-// ===== Portfolio Features =====
+// Navbar Shadow
 
-// Smooth Scrolling
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener("click", function(e) {
-    e.preventDefault();
+window.addEventListener("scroll",()=>{
 
-    document.querySelector(this.getAttribute("href")).scrollIntoView({
-      behavior: "smooth"
-    });
-  });
-});
+const header=document.querySelector("header");
 
-// Scroll Animation
-const sections = document.querySelectorAll("section");
+if(window.scrollY>80){
 
-window.addEventListener("scroll", () => {
-  sections.forEach(section => {
-    const top = section.getBoundingClientRect().top;
+header.style.boxShadow="0 0 25px rgba(212,175,55,.35)";
 
-    if (top < window.innerHeight - 100) {
-      section.classList.add("show");
-    }
-  });
-});
-// Typing Effect
+}else{
 
-const text = [
-  "Frontend Web Developer",
-  "HTML | CSS | JavaScript",
-  "Web Designer"
-];
+header.style.boxShadow="none";
 
-let count = 0;
-let index = 0;
-let currentText = "";
-let letter = "";
-
-(function type() {
-
-  if (count === text.length) {
-    count = 0;
-  }
-
-  currentText = text[count];
-  letter = currentText.slice(0, ++index);
-
-  document.querySelector(".hero-text h3").textContent = letter;
-
-  if (letter.length === currentText.length) {
-
-    setTimeout(() => {
-
-      index = 0;
-      count++;
-      type();
-
-    }, 1500);
-
-  } else {
-
-    setTimeout(type, 100);
-
-  }
-
-})();
-// Dark / Light Mode
-
-const themeBtn = document.getElementById("theme-btn");
-
-themeBtn.addEventListener("click", () => {
-    document.body.classList.toggle("light");
-
-    if(document.body.classList.contains("light")){
-        themeBtn.innerHTML = "☀️ Light";
-    } else {
-        themeBtn.innerHTML = "🌙 Dark";
-    }
-});
-const menuToggle = document.getElementById("menu-toggle");
-const menu = document.getElementById("menu");
-
-menuToggle.addEventListener("click", () => {
-    menu.classList.toggle("active");
-});
-// Gallery Lightbox
-const galleryImages = document.querySelectorAll(".gallery-box img");
-const lightbox = document.getElementById("lightbox");
-const lightboxImg = document.getElementById("lightbox-img");
-const closeBtn = document.querySelector(".close");
-
-galleryImages.forEach(img => {
-    img.addEventListener("click", () => {
-        lightbox.style.display = "flex";
-        lightboxImg.src = img.getAttribute("src");
-    });
-});
-
-closeBtn.addEventListener("click", () => {
-    lightbox.style.display = "none";
-});
-
-lightbox.addEventListener("click", (e) => {
-    if (e.target === lightbox) {
-        lightbox.style.display = "none";
-    }
-});
-// Gallery Lightbox
-
-const images=document.querySelectorAll(".gallery-item img");
-const lightbox=document.getElementById("lightbox");
-const lightboxImg=document.getElementById("lightbox-img");
-const close=document.querySelector(".close");
-
-images.forEach(img=>{
-img.onclick=()=>{
-lightbox.style.display="flex";
-lightboxImg.src=img.src;
-}
-});
-
-close.onclick=()=>{
-lightbox.style.display="none";
 }
 
-lightbox.onclick=(e)=>{
-if(e.target===lightbox){
-lightbox.style.display="none";
-}
-}
+});
