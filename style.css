@@ -12,9 +12,10 @@ scroll-behavior:smooth;
 }
 
 body{
-background:#070707;
-color:#ffffff;
-overflow-x:hidden;
+    background:#080808;
+    color:#fff;
+    overflow-x:hidden;
+    position:relative;
 }
 
 /* Scrollbar */
