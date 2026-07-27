@@ -909,3 +909,83 @@ body{
 opacity:0;
 transition:opacity .8s ease;
 }
+/* ===== PREMIUM HERO ===== */
+
+.hero{
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+padding:100px 8%;
+background:#0a0a0a;
+}
+
+.hero-content{
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:60px;
+flex-wrap:wrap;
+}
+
+.hero-text{
+flex:1;
+}
+
+.hero-text h4{
+color:#FFD700;
+font-size:18px;
+letter-spacing:2px;
+margin-bottom:10px;
+}
+
+.hero-text h1{
+font-size:60px;
+color:#fff;
+line-height:1.2;
+margin-bottom:15px;
+}
+
+.hero-text h1 span{
+color:#FFD700;
+}
+
+.hero-text h2{
+font-size:28px;
+color:#ddd;
+margin-bottom:20px;
+}
+
+.hero-text p{
+color:#aaa;
+line-height:1.8;
+margin-bottom:30px;
+}
+
+.hero-image{
+flex:1;
+display:flex;
+justify-content:center;
+}
+
+.hero-image img{
+width:340px;
+height:340px;
+border-radius:50%;
+object-fit:cover;
+border:6px solid #FFD700;
+box-shadow:0 0 40px #FFD700;
+animation:glow 3s infinite alternate;
+}
+
+@keyframes glow{
+
+from{
+box-shadow:0 0 20px #FFD700;
+}
+
+to{
+box-shadow:0 0 60px #FFD700;
+}
+
+}
