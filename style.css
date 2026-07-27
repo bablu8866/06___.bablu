@@ -977,3 +977,29 @@ box-shadow:0 0 60px #FFD700;
         text-align:center;
     }
 }
+.social{
+    display:flex;
+    gap:15px;
+    margin-top:25px;
+}
+
+.social a{
+    width:45px;
+    height:45px;
+    border:2px solid #FFD700;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#FFD700;
+    text-decoration:none;
+    font-size:20px;
+    transition:0.4s;
+}
+
+.social a:hover{
+    background:#FFD700;
+    color:#111;
+    transform:translateY(-8px) scale(1.1);
+    box-shadow:0 0 20px #FFD700;
+}
