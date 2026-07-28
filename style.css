@@ -1253,3 +1253,29 @@ animation:none;
 100%{opacity:0;}
 
 }
+/* ===== Glass Water Effect ===== */
+
+.glass-overlay{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+pointer-events:none;
+z-index:-1;
+backdrop-filter:blur(2px);
+background:
+radial-gradient(circle at 20% 30%, rgba(255,255,255,.08) 2px, transparent 4px),
+radial-gradient(circle at 60% 50%, rgba(255,255,255,.06) 3px, transparent 6px),
+radial-gradient(circle at 80% 20%, rgba(255,255,255,.08) 2px, transparent 5px);
+animation:glassMove 8s linear infinite alternate;
+}
+
+@keyframes glassMove{
+0%{
+transform:translateY(0);
+}
+100%{
+transform:translateY(20px);
+}
+}
