@@ -92,15 +92,19 @@ Responsive Contact Form
 <p align="center">
 
 <a href="https://github.com/bablu8866">
-  <img src="https://skillicons.dev/icons?i=github" height="48"/>
+  <img src="https://skillicons.dev/icons?i=github" height="50"/>
 </a>
+
+&nbsp;&nbsp;&nbsp;
 
 <a href="https://www.instagram.com/06____.bablu">
-  <img src="https://skillicons.dev/icons?i=instagram" height="80"/>
+  <img src="https://img.shields.io/badge/Instagram-06____.bablu-FFD700?style=for-the-badge&logo=instagram&logoColor=black&labelColor=FFD700" />
 </a>
 
+&nbsp;&nbsp;&nbsp;
+
 <a href="https://www.facebook.com/share/1GFgCQBV8w/">
-  <img src="https://cdn.simpleicons.org/facebook/1877F2" height="48"/>
+  <img src="https://skillicons.dev/icons?i=facebook" height="50"/>
 </a>
 
 </p>
