@@ -1,3 +1,8 @@
+<p align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=blur&height=280&color=0:000000,50:FFD700,100:000000&text=Bablu%20Kumar&fontColor=FFFFFF&fontSize=55&animation=fadeIn"/>
+
+</p>
 <h1 align="center">Hi 👋, I'm Bablu Kumar</h1>
 
 <h3 align="center">
