@@ -1271,3 +1271,43 @@ footer{
     z-index: 1;
     background: rgba(0,0,0,0.5);
 }
+/* ===== Premium Video Overlay ===== */
+
+.video-bg{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    z-index:-2;
+}
+
+body::after{
+    content:"";
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.45);
+    z-index:-1;
+}
+
+.hero-image img{
+    animation:glow 2s infinite alternate;
+}
+
+header{
+    background:rgba(0,0,0,.35);
+    backdrop-filter:blur(12px);
+}
+
+section{
+    background:transparent !important;
+}
+
+footer{
+    background:rgba(0,0,0,.45);
+    backdrop-filter:blur(10px);
+}
