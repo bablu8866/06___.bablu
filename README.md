@@ -1,5 +1,10 @@
 <p align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:000000,100:1a1a1a&text=Bablu%20Kumar&fontColor=FFD700&fontSize=60&fontAlignY=42&desc=Frontend%20Developer%20%7C%20JavaScript%20Developer&descColor=FFFFFF&descAlignY=62&animation=twinkling"/>
+
+</p>
+<p align="center">
+
 <img src="https://capsule-render.vercel.app/api?type=blur&height=280&color=0:000000,50:FFD700,100:000000&text=Bablu%20Kumar&fontColor=FFFFFF&fontSize=55&animation=fadeIn"/>
 
 </p>
