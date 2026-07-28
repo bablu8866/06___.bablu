@@ -570,10 +570,18 @@ color:#999;
 @media(max-width:992px){
 
 .hero{
+    min-height:auto;
+    padding-top:20px;
+    gap:10px;
+}
 
-flex-direction:column-reverse;
+.hero-left{
+    margin-top:-80px;
+}
 
-text-align:center;
+.photo-ring{
+    margin-bottom:10px;
+}
 
 }
 
