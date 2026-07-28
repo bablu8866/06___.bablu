@@ -1,4 +1,14 @@
-// ==========================
+const contactForm = document.querySelector(".contact-form form");
+
+if(contactForm){
+    contactForm.addEventListener("submit", function(e){
+        e.preventDefault();
+
+        alert("✅ Message Sent Successfully!");
+
+        contactForm.reset();
+    });
+}// ==========================
 // MOBILE MENU
 // ==========================
 
