@@ -1,4 +1,7 @@
 <p align="center">
+  <img src="banner.png" width="100%">
+</p>
+<p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:0D47A1,50:1976D2,100:42A5F5&text=Bablu%20Kumar&fontColor=ffffff&fontSize=48&animation=fadeIn&fontAlignY=38&desc=Web%20Developer%20|%20HTML%20CSS%20JavaScript%20|%20GitHub&descAlignY=62&descSize=20"/>
 </p>
 <p align="center">
