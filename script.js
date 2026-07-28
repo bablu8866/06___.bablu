@@ -93,3 +93,81 @@ document.querySelectorAll("button").forEach(btn => {
 
 // Console Message 😎
 console.log("🔥 Bablu Kumar Premium Portfolio Loaded Successfully");
+// =====================================
+// PART 8 - FINAL PREMIUM EFFECTS
+// =====================================
+
+// Loading Screen
+window.addEventListener("load", () => {
+
+const loader = document.getElementById("loader");
+
+if(loader){
+
+loader.style.opacity = "0";
+
+setTimeout(()=>{
+
+loader.style.display="none";
+
+},800);
+
+}
+
+});
+
+// Mouse Glow Effect
+
+const glow = document.createElement("div");
+
+glow.style.width="20px";
+glow.style.height="20px";
+glow.style.borderRadius="50%";
+glow.style.position="fixed";
+glow.style.pointerEvents="none";
+glow.style.background="rgba(255,215,0,.6)";
+glow.style.boxShadow="0 0 35px gold";
+glow.style.zIndex="99999";
+glow.style.transition="transform .05s linear";
+
+document.body.appendChild(glow);
+
+document.addEventListener("mousemove",(e)=>{
+
+glow.style.left=e.clientX-10+"px";
+glow.style.top=e.clientY-10+"px";
+
+});
+
+// Scroll Progress Bar
+
+const progress=document.createElement("div");
+
+progress.style.position="fixed";
+progress.style.top="0";
+progress.style.left="0";
+progress.style.height="5px";
+progress.style.width="0%";
+progress.style.background="#FFD700";
+progress.style.zIndex="999999";
+progress.style.boxShadow="0 0 15px gold";
+
+document.body.appendChild(progress);
+
+window.addEventListener("scroll",()=>{
+
+const totalHeight=document.body.scrollHeight-window.innerHeight;
+
+const progressHeight=(window.pageYOffset/totalHeight)*100;
+
+progress.style.width=progressHeight+"%";
+
+});
+
+// Welcome Message
+
+setTimeout(()=>{
+
+console.log("✨ Welcome to Bablu Kumar Premium Portfolio ✨");
+
+},1000);
