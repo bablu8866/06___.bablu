@@ -906,7 +906,7 @@ transition:opacity .8s ease;
     min-height:100vh;
     display:flex;
     align-items:center;
-    background:#0a0a0a;
+    background: transparent;
     padding:100px 8%;
 }
 
