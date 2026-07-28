@@ -188,3 +188,20 @@ Hi 👋 I'm Bablu Kumar
 <img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=0:000000,50:FFD700,100:000000&section=footer"/>
 
 </div>
+---
+
+# 🐍 Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/bablu8866/bablu8866/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
+</p>
+
+---
+
+<div align="center">
+
+## 🖤 Thanks for Visiting My Profile 💛
+
+⭐ If you like my work, don't forget to star my repositories!
+
+</div>
