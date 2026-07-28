@@ -1,4 +1,7 @@
 <p align="center">
+  <img src="https://raw.githubusercontent.com/bablu8866/bablu8866/main/banner.jpg" width="100%" alt="Bablu Kumar Banner">
+</p>
+<p align="center">
   <img src="banner.jpg" width="100%">
 </p>
 <p align="center">
