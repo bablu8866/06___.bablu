@@ -113,6 +113,15 @@ Hi 👋 I'm Bablu Kumar
 </p>
 
 ---
+# 📈 GitHub Activity Graph
+
+<p align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=bablu8866&bg_color=000000&color=FFD700&line=FFD700&point=FFFFFF&area=true&area_color=FFD700&hide_border=true"/>
+
+</p>
+
+---
 # 🏆 GitHub Trophies
 
 <p align="center">
