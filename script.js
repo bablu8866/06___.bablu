@@ -218,3 +218,22 @@ window.onresize=()=>{
 canvas.width=window.innerWidth;
 canvas.height=window.innerHeight;
 };
+// Lightning Effect
+
+const flash = document.querySelector(".flash");
+
+setInterval(()=>{
+
+if(Math.random()>0.85){
+
+flash.style.animation="lightning .6s";
+
+setTimeout(()=>{
+
+flash.style.animation="none";
+
+},600);
+
+}
+
+},5000);
