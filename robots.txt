@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://bablu8866.github.io/sitemap.xml
