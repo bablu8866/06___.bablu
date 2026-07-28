@@ -123,7 +123,7 @@ Responsive Contact Form
 
 <h3 align="center">
 
-⭐ Thanks for visiting my profile ⭐</h3>
+♥️ Thanks for visiting my profile ⭐</h3>
 ---
 
 <div align="center">
