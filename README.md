@@ -1,3 +1,4 @@
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=28&pause=1000&color=00C9A7&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B+I'm+Bablu+Kumar;Web+Developer;HTML+%7C+CSS+%7C+JavaScript;Learning+Git+%26+GitHub;Welcome+to+my+GitHub+Profile!)](https://github.com/bablu8866)
 ![Banner](https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,100:00C9A7&height=220&section=header&text=Bablu%20Kumar&fontSize=45&fontColor=ffffff&animation=fadeIn)
 # Hi 👋, I'm Bablu Kumar
 
