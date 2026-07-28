@@ -92,19 +92,18 @@ Responsive Contact Form
 <p align="center">
 
 <a href="https://github.com/bablu8866">
-<img src="https://skillicons.dev/icons?i=github"/>
+  <img src="https://skillicons.dev/icons?i=github" height="48"/>
 </a>
 
 <a href="https://www.instagram.com/06____.bablu">
-<img src="https://skillicons.dev/icons?i=instagram"/>
+  <img src="https://skillicons.dev/icons?i=instagram" height="80"/>
 </a>
 
 <a href="https://www.facebook.com/share/1GFgCQBV8w/">
-<img src="https://cdn.simpleicons.org/facebook/1877F2"/>
+  <img src="https://cdn.simpleicons.org/facebook/1877F2" height="48"/>
 </a>
 
 </p>
-
 ---
 
 # 🌟 Portfolio
