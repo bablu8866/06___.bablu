@@ -133,3 +133,146 @@ width:90px!important;
 }
 
 }
+/* =====================================
+   PREMIUM EFFECTS (PART 7)
+===================================== */
+
+/* Floating Gold Background */
+
+body::before{
+content:"";
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:
+radial-gradient(circle,#FFD70022 2px,transparent 2px);
+background-size:60px 60px;
+animation:moveBg 20s linear infinite;
+z-index:-3;
+}
+
+@keyframes moveBg{
+
+0%{
+transform:translateY(0);
+}
+
+100%{
+transform:translateY(60px);
+}
+
+}
+
+/* Glass Effect */
+
+.card{
+
+background:rgba(20,20,20,.75);
+
+backdrop-filter:blur(15px);
+
+-webkit-backdrop-filter:blur(15px);
+
+}
+
+/* Premium Hover */
+
+.card:hover{
+
+transform:translateY(-12px);
+
+box-shadow:0 0 35px rgba(255,215,0,.45);
+
+}
+
+/* Image Hover */
+
+img{
+
+transition:.4s;
+
+}
+
+img:hover{
+
+transform:scale(1.03);
+
+}
+
+/* Golden Text */
+
+h1,h2,h3{
+
+text-shadow:0 0 15px rgba(255,215,0,.4);
+
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+
+width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+background:#111;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+background:#FFD700;
+
+border-radius:30px;
+
+}
+
+/* Selection */
+
+::selection{
+
+background:#FFD700;
+
+color:#000;
+
+}
+
+/* Footer Glow */
+
+footer{
+
+box-shadow:0 -5px 40px rgba(255,215,0,.2);
+
+}
+
+/* Smooth Animation */
+
+section{
+
+animation:fadeUp 1s ease;
+
+}
+
+@keyframes fadeUp{
+
+from{
+
+opacity:0;
+
+transform:translateY(40px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
