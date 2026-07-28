@@ -154,3 +154,21 @@ const copyright=document.querySelector(".copyright");
 if(copyright){
 copyright.innerHTML=`© ${year} BABLU KUMAR | All Rights Reserved`;
 }
+const music = document.getElementById("bgMusic");
+const musicBtn = document.getElementById("musicBtn");
+
+window.addEventListener("load", () => {
+    music.play().catch(() => {
+        console.log("Autoplay blocked by browser");
+    });
+});
+
+musicBtn.onclick = () => {
+    if (music.paused) {
+        music.play();
+        musicBtn.innerHTML = "🔊 Music";
+    } else {
+        music.pause();
+        musicBtn.innerHTML = "🔇 Music";
+    }
+};
