@@ -1311,3 +1311,36 @@ footer{
     background:rgba(0,0,0,.45);
     backdrop-filter:blur(10px);
 }
+/* ===== Rain Effect ===== */
+
+.rain{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    pointer-events:none;
+    z-index:0;
+    overflow:hidden;
+}
+
+.rain::before{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-image:
+    linear-gradient(transparent 0%, rgba(255,255,255,.7) 50%, transparent 100%);
+    background-size:2px 80px;
+    animation:rainFall .35s linear infinite;
+    opacity:.35;
+}
+
+@keyframes rainFall{
+    from{
+        transform:translateY(-100%);
+    }
+    to{
+        transform:translateY(100%);
+    }
+}
