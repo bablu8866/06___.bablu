@@ -171,3 +171,97 @@ setTimeout(()=>{
 console.log("✨ Welcome to Bablu Kumar Premium Portfolio ✨");
 
 },1000);
+/* ===================================
+   PART 8 - FINAL PREMIUM JAVASCRIPT
+=================================== */
+
+// ===== Typing Animation =====
+const texts = [
+  "Frontend Developer",
+  "JavaScript Developer",
+  "Responsive Web Designer",
+  "React Learner"
+];
+
+let textIndex = 0;
+let charIndex = 0;
+let typingElement = document.getElementById("typing");
+
+function typeEffect() {
+  if (!typingElement) return;
+
+  if (charIndex < texts[textIndex].length) {
+    typingElement.innerHTML += texts[textIndex].charAt(charIndex);
+    charIndex++;
+    setTimeout(typeEffect, 80);
+  } else {
+    setTimeout(eraseEffect, 1500);
+  }
+}
+
+function eraseEffect() {
+  if (charIndex > 0) {
+    typingElement.innerHTML = texts[textIndex].substring(0, charIndex - 1);
+    charIndex--;
+    setTimeout(eraseEffect, 40);
+  } else {
+    textIndex = (textIndex + 1) % texts.length;
+    setTimeout(typeEffect, 300);
+  }
+}
+
+typeEffect();
+
+// ===== Scroll Reveal =====
+const cards = document.querySelectorAll(".card,.project-card");
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.style.opacity = "1";
+      entry.target.style.transform = "translateY(0)";
+    }
+  });
+});
+
+cards.forEach(card => {
+  card.style.opacity = "0";
+  card.style.transform = "translateY(40px)";
+  card.style.transition = ".8s";
+  observer.observe(card);
+});
+
+// ===== Mouse Glow =====
+const glow = document.createElement("div");
+
+glow.style.width = "20px";
+glow.style.height = "20px";
+glow.style.borderRadius = "50%";
+glow.style.position = "fixed";
+glow.style.background = "rgba(255,215,0,.5)";
+glow.style.boxShadow = "0 0 30px gold";
+glow.style.pointerEvents = "none";
+glow.style.zIndex = "9999";
+
+document.body.appendChild(glow);
+
+document.addEventListener("mousemove", (e) => {
+  glow.style.left = e.clientX - 10 + "px";
+  glow.style.top = e.clientY - 10 + "px";
+});
+
+// ===== Loader =====
+window.addEventListener("load", () => {
+  const loader = document.getElementById("loader");
+
+  if (loader) {
+    loader.style.opacity = "0";
+
+    setTimeout(() => {
+      loader.style.display = "none";
+    }, 800);
+  }
+});
+
+// ===== Console =====
+console.log("🔥 Bablu Kumar Premium Portfolio Loaded Successfully");
