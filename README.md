@@ -96,7 +96,7 @@ Responsive Contact Form
 </a>
 
 <a href="https://www.instagram.com/06____.bablu">
-  <img src="https://skillicons.dev/icons?i=instagram" height="800"/>
+  <img src="https://skillicons.dev/icons?i=instagram" height="80"/>
 </a>
 
 <a href="https://www.facebook.com/share/1GFgCQBV8w/">
