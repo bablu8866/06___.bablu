@@ -1201,3 +1201,16 @@ width:0;
     transform:translateY(-3px);
     box-shadow:0 0 20px #FFD700;
 }
+#musicBtn{
+    position:fixed;
+    top:20px;
+    right:20px;
+    z-index:9999;
+    padding:10px 18px;
+    border:none;
+    border-radius:30px;
+    background:#111;
+    color:#FFD700;
+    cursor:pointer;
+    box-shadow:0 0 15px gold;
+}
