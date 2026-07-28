@@ -172,3 +172,49 @@ musicBtn.onclick = () => {
         musicBtn.innerHTML = "🔇 Music";
     }
 };
+const canvas = document.getElementById("rain");
+const ctx = canvas.getContext("2d");
+
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+const drops = [];
+
+for(let i=0;i<300;i++){
+    drops.push({
+        x:Math.random()*canvas.width,
+        y:Math.random()*canvas.height,
+        l:Math.random()*20+10,
+        s:Math.random()*8+6
+    });
+}
+
+function rain(){
+    ctx.clearRect(0,0,canvas.width,canvas.height);
+
+    ctx.strokeStyle="rgba(174,194,224,0.5)";
+    ctx.lineWidth=1;
+
+    for(let d of drops){
+        ctx.beginPath();
+        ctx.moveTo(d.x,d.y);
+        ctx.lineTo(d.x,d.y+d.l);
+        ctx.stroke();
+
+        d.y+=d.s;
+
+        if(d.y>canvas.height){
+            d.y=-20;
+            d.x=Math.random()*canvas.width;
+        }
+    }
+
+    requestAnimationFrame(rain);
+}
+
+rain();
+
+window.onresize=()=>{
+canvas.width=window.innerWidth;
+canvas.height=window.innerHeight;
+};
