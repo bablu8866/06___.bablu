@@ -12,10 +12,12 @@ scroll-behavior:smooth;
 }
 
 body{
-    background:#080808;
+    background: url("background.jpg") no-repeat center center fixed;
+    background-size: cover;
     color:#fff;
     overflow-x:hidden;
     position:relative;
+    }
 }
 
 /* Scrollbar */
