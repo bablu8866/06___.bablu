@@ -125,3 +125,26 @@ Responsive Contact Form
 ⭐ Thanks for visiting my profile ⭐
 
 </h3>
+---
+
+<div align="center">
+
+## 🖤 Thanks for Visiting My Profile 💛
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=22&duration=3000&pause=1000&color=FFD700&center=true&vCenter=true&width=600&lines=Code+is+my+Passion;Design+is+my+Obsession;Thanks+for+Visiting+My+Profile!" />
+
+<br>
+
+⭐ **If you like my work, don't forget to Star my repositories!**
+
+<br>
+
+<p>
+  <a href="https://github.com/bablu8866">
+    <img src="https://img.shields.io/badge/GitHub-bablu8866-FFD700?style=for-the-badge&logo=github&logoColor=black"/>
+  </a>
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=FFD700&height=120&section=footer"/>
+
+</div>
