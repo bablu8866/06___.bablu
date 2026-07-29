@@ -1,37 +1,17 @@
-# 💫 About Me:
-Hi, I'm Bablu 👋  
-🚀 Passionate about technology, coding, and creative problem-solving.  
-🌍 Based in Coimbatore, Tamil Nadu, India.  
-✨ Always learning, building, and sharing knowledge.  
+<!-- ================= LUXURY HEADER ================= -->
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/bablu8866/assets/main/images/banner.png" width="100%" alt="Bablu Kumar Banner">
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=26&duration=3500&pause=1000&color=F7C948&center=true&vCenter=true&width=800&lines=👑+Welcome+to+My+GitHub+Profile;💻+Full+Stack+Web+Developer;⚡+Building+Premium+Web+Experiences;🚀+Always+Learning+New+Technologies" />
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=bablu8866&style=for-the-badge&color=F7C948" />
+  <img src="https://img.shields.io/github/followers/bablu8866?style=for-the-badge&color=000000&labelColor=F7C948" />
+  <img src="https://img.shields.io/github/stars/bablu8866?style=for-the-badge&color=000000&labelColor=F7C948" />
+</p>
 
 ---
-
-# 🌐 Socials:
-[LinkedIn](https://linkedin.com/) | [Twitter](https://twitter.com/) | [Portfolio](https://yourwebsite.com)
-
----
-
-# 💻 Tech Stack:
-- **Languages:** Python | JavaScript | C++  
-- **Frameworks:** React | Node.js | Django  
-- **Databases:** MySQL | MongoDB | PostgreSQL  
-- **Tools:** Git | Docker | VS Code  
-
----
-
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=YourUsername&theme=radical&hide_border=false&include_all_commits=true&count_private=true)  
-![](https://github-readme-streak-stats.herokuapp.com/?user=YourUsername&theme=radical&hide_border=false)  
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=YourUsername&theme=radical&hide_border=false&layout=compact)
-
----
-
-# 🏆 Achievements:
-- 🌟 Open-source contributor  
-- 🥇 Hackathon winner  
-- 📚 Lifelong learner  
-
----
-
-# ✨ Fun Fact:
-I believe **code + creativity = magic** ✨
