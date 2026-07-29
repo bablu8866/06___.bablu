@@ -1,175 +1,101 @@
-<!-- =========================
-     GitHub Profile README v3.0
-========================== -->
-
-<h1 align="center">
-  Hi 👋, I'm Bablu Kumar
-</h1>
-
-<h3 align="center">
-🚀 Frontend Developer | Web Designer | React Learner | Open Source Enthusiast
-</h3>
-
-<p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1000&color=00C2FF&center=true&vCenter=true&width=700&lines=Welcome+to+My+GitHub+Profile!;Frontend+Developer;HTML+CSS+JavaScript;Learning+React;Building+Awesome+Projects" />
-</p>
+<div align="center">
+  <h1 align="center">Hi 👋, I'm Bablu Kumar</h1>
+  <h3>Frontend Developer • JavaScript Enthusiast • Responsive Web Designer</h3>
+  <p><em>Always Learning New Technologies</em></p>
+</div>
 
 ---
 
-## 👨‍💻 About Me
+## 🚀 About Me
 
-- 🌱 Currently learning **React.js**
-- 💻 Passionate about **Frontend Development**
-- 🚀 Love building modern websites
-- 🎯 Goal: Become a Professional Web Developer
-- 📍 India
-- ⚡ Always learning something new
-
----
-
-## 🚀 Tech Stack
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=html,css,js,react,bootstrap,git,github,vscode&perline=8"/>
-
-</p>
+* 🌟 Passionate Frontend Developer from India
+* 💻 I build Modern Responsive Websites
+* 🌱 Currently Learning React.js
+* 🎯 Goal: Become a Full Stack Developer
+* ⚡ Love creating Premium UI Designs
 
 ---
 
-## 🛠 Currently Working On
+## 🛠️ Tech Stack
 
-- 🌐 Responsive Websites
-- ⚛ React Projects
-- 🎨 UI/UX Designs
-- 📱 Mobile Friendly Layouts
-
----
-## 🌐 Connect With Me
-
-<p align="center">
-<a href="https://github.com/bablu8866">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<a href="https://www.linkedin.com/">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="mailto:your@email.com">
-<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-</p>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" width="40" height="40" alt="HTML5" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" width="40" height="40" alt="CSS3" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40" height="40" alt="JavaScript" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="40" height="40" alt="React" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original-wordmark.svg" width="40" height="40" alt="Git" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" width="40" height="40" alt="GitHub" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" width="40" height="40" alt="VS Code" />
+</div>
 
 ---
 
-## 📊 GitHub Stats
+## 📂 Featured Projects
 
-<p align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=bablu8866&show_icons=true&theme=tokyonight&hide_border=true"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bablu8866&layout=compact&theme=tokyonight&hide_border=true"/>
-
-</p>
+| Project | Description | Action |
+| :--- | :--- | :--- |
+| **Portfolio Website** | Luxury Black & Gold Personal Portfolio | [Live Demo](#) |
+| **Calculator** | Modern Calculator using HTML CSS JavaScript | [Live Demo](#) |
+| **Contact Form** | Responsive Contact Form with Validation | [Live Demo](#) |
 
 ---
 
-## 🔥 GitHub Streak
+## 📊 GitHub Stats & Metrics
 
-<p align="center">
+<table align="center">
+  <tr>
+    <td><img src="https://github-readme-stats.vercel.app/api?username=bablu8866&show_icons=true&theme=vision-code-dark&hide_border=true&include_all_commits=true&count_private=true" alt="Bablu's GitHub Stats" /></td>
+    <td><img src="https://github-readme-streak-stats.herokuapp.com/?user=bablu8866&theme=vision-code-dark&hide_border=true" alt="GitHub Streak" /></td>
+  </tr>
+</table>
 
-<img src="https://streak-stats.demolab.com?user=bablu8866&theme=tokyonight&hide_border=true"/>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bablu8866&layout=compact&theme=vision-code-dark&hide_border=true" alt="Most Used Languages" />
+</div>
 
-</p>
+---
+
+## 📈 GitHub Activity Graph
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bablu8866&theme=react-dark&hide_border=true" alt="GitHub Activity Graph" />
+</div>
 
 ---
 
 ## 🏆 GitHub Trophies
 
-<p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=bablu8866&theme=tokyonight&no-frame=true&row=1&column=6"/>
-
-</p>
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=bablu8866&theme=onedark&no_frame=true&margin_w=4&column=5" alt="GitHub Trophies" />
+</div>
 
 ---
 
-## 📈 Contribution Graph
+## 🌐 Connect With Me
 
-<p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=bablu8866&theme=tokyo-night"/>
-
-</p>
-
----
-## 🚀 Featured Projects
-
-| Project | Description |
-|---------|-------------|
-| 🌐 Portfolio Website | Modern responsive personal portfolio |
-| 🎬 Netflix Clone | HTML, CSS & JavaScript |
-| ☁️ Weather App | Live weather using API |
-| ✅ Todo App | Task manager with Local Storage |
-| 🛒 E-Commerce UI | Responsive shopping website |
+<div align="center">
+  <a href="https://github.com/bablu8866" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://instagram.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
+  <a href="https://linkedin.com/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:your-email@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</div>
 
 ---
 
-## ✍️ Random Dev Quote
+<div align="center">
+  <h3>⭐ Portfolio – Coming Soon on GitHub Pages</h3>
+  <p><img src="https://komarev.com/ghpvc/?username=bablu8866&color=ffb700&style=flat-square" alt="Profile Views" /></p>
+  
+  <h3>💛 Thanks for Visiting My Profile 💛</h3>
+  <p>If you like my work, don't forget to ⭐ Star my repositories!</p>
+  <p><strong>GitHub / bablu8866</strong></p>
+</div>
 
-<p align="center">
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight"/>
-</p>
-
----
-
-## 👀 Profile Visitors
-
-<p align="center">
-<img src="https://komarev.com/ghpvc/?username=bablu8866&label=Profile%20Views&color=0e75b6&style=for-the-badge"/>
-</p>
-
----
-
-## 💡 Fun Fact
-
-```text
-✨ First, solve the problem.
-Then, write the code.
-```
-
----
-
-## 🎯 2026 Goals
-
-- ✅ Master HTML & CSS
-- ✅ Master JavaScript
-- 🔄 Learn React.js
-- 🚀 Build 20+ Premium Projects
-- ⭐ Reach 500+ GitHub Contributions
-
----
-
-## 🐍 Contribution Snake
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/bablu8866/bablu8866/output/github-contribution-grid-snake.svg" alt="Snake animation"/>
-</p>
-
----
-
-<h3 align="center">
-⭐ Thanks for visiting my profile ⭐
-</h3>
-
-<p align="center">
-Keep Learning • Keep Building • Keep Growing 🚀
-</p>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,100:92FE9D&height=120&section=footer"/>
-## 🐍 Contribution Snake
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/bablu8866/bablu8866/output/github-contribution-grid-snake.svg" alt="Snake Animation">
-</p>
