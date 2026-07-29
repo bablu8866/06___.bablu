@@ -168,3 +168,8 @@ Keep Learning • Keep Building • Keep Growing 🚀
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,100:92FE9D&height=120&section=footer"/>
+## 🐍 Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/bablu8866/bablu8866/output/github-contribution-grid-snake.svg" alt="Snake Animation">
+</p>
